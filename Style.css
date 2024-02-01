@@ -21,7 +21,7 @@ body{
     margin-left: 50px;
     flex-grow: 2;
 }
-h3{
+h3,h4,h5,h6{
    color: white;
    font-size: 26px;
    margin-bottom: 5px;
@@ -29,7 +29,7 @@ h3{
 p{
     color: #c3c6ca;
 }
-.bio {
+.bio,.experience,.skills,.education  {
 
     border-radius: 19px;
     padding: 20px;
@@ -41,6 +41,19 @@ p{
     font-size: 26px;
     border-bottom: 2px solid #bdbdbd;
 }
+div h3,div h4, div h5,div h6{
+    color: white;
+    padding-left: 10px;
+    font-size: 26px;
+    border-bottom: 2px solid #bdbdbd;
+}
 #text1{
     
+}
+.jop-title-container a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
 }
